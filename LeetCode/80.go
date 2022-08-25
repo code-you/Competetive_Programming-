@@ -38,21 +38,14 @@ func main() {
 	fmt.Scan(&T)
 
 	for T > 0 {
-		var N int
-		fmt.Scanln(&N)
-
-		if N%100 == 0 {
-			fmt.Println(N / 100)
-		} else if N <= 10 {
-			fmt.Println(N)
+		var N, M int
+		fmt.Scanln(&N, &M)
+		if (N/M)%2 == 0 && M%2 == 0 {
+			fmt.Println("Yes")
 		} else {
-			n := N % 100
-			if n > 9 {
-				fmt.Println(-1)
-			} else {
-				fmt.Println((N / 100) + n)
-			}
+			fmt.Println("No")
 		}
+
 		T--
 	}
 
