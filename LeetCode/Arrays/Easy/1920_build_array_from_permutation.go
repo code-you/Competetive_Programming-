@@ -2,8 +2,6 @@
 
 package main
 
-import "fmt"
-
 func buildArray(nums []int) []int {
 	//space complexity O(1)
 	n := len(nums)
@@ -23,8 +21,9 @@ func buildArray(nums []int) []int {
 	//return ans
 }
 
-func main() {
-	arr := []int{0, 2, 1, 5, 3, 4}
-	nums := buildArray(arr)
-	fmt.Println(nums)
-}
+//
+//func main() {
+//	arr := []int{0, 2, 1, 5, 3, 4}
+//	nums := buildArray(arr)
+//	fmt.Println(nums)
+//}

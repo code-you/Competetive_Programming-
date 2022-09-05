@@ -2,8 +2,6 @@
 
 package main
 
-import "fmt"
-
 //O(n) time and space complexity
 func getConcatenation(nums []int) []int {
 	n := len(nums)
@@ -16,8 +14,8 @@ func getConcatenation(nums []int) []int {
 	return ans
 }
 
-func main() {
-	arr := []int{1, 3, 2, 1}
-	nums := getConcatenation(arr)
-	fmt.Println(nums)
-}
+//func main() {
+//	arr := []int{1, 3, 2, 1}
+//	nums := getConcatenation(arr)
+//	fmt.Println(nums)
+//}

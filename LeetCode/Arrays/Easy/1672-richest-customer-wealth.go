@@ -2,8 +2,6 @@
 
 package main
 
-import "fmt"
-
 func maximumWealth(accounts [][]int) int {
 	max := 0
 	for i := range accounts {
@@ -23,8 +21,8 @@ func sumOfArray(nums []int) int {
 	return sum
 }
 
-func main() {
-	arr := [][]int{{2, 8, 7}, {7, 1, 3}, {1, 9, 5}}
-	nums := maximumWealth(arr)
-	fmt.Println(nums)
-}
+//func main() {
+//	arr := [][]int{{2, 8, 7}, {7, 1, 3}, {1, 9, 5}}
+//	nums := maximumWealth(arr)
+//	fmt.Println(nums)
+//}

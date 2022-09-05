@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //O(n) time and space complexity
 func runningSum(nums []int) []int {
 	ans := make([]int, len(nums))
@@ -12,8 +10,8 @@ func runningSum(nums []int) []int {
 	return ans
 }
 
-func main() {
-	arr := []int{1, 2, 3, 4}
-	nums := runningSum(arr)
-	fmt.Println(nums)
-}
+//func main() {
+//	arr := []int{1, 2, 3, 4}
+//	nums := runningSum(arr)
+//	fmt.Println(nums)
+//}
