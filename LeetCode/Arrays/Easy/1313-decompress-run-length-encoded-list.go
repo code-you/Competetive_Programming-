@@ -18,3 +18,15 @@ func decompressRLElist(nums []int) []int {
 //	nums := decompressRLElist(arr)
 //	fmt.Println(nums)
 //}
+
+//func diagonalSum(mat [][]int) int {
+//	sum := 0
+//	n := len(mat) - 1
+//	for i := 0; i <= n; i++ {
+//		sum += mat[i][i]
+//		if i != n-i {
+//			sum += mat[i][n-i]
+//		}
+//	}
+//	return sum
+//}
